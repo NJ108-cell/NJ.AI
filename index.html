@@ -20,10 +20,28 @@
         href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap"
         rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/three@0.164.1/build/three.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
+    <style>
+        /* ======= VARIABLES ======= */
+        :root {
+            --p: #00d4ff;
+            --s: #7c3aed;
+            --a: #ff006e;
+            --bg: #030712;
+            --bg2: #0a0f1e;
+            --card: rgba(10, 20, 40, 0.85);
+            --txt: #e2e8f0;
+            --sub: #94a3b8;
+            --border: rgba(0, 212, 255, 0.18);
+        }
 
-
-
+        /* ======= RESET ======= */
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
 
         html {
             scroll-behavior: smooth
@@ -2367,8 +2385,11 @@
 
     </div><!-- /#content -->
 
-    <script src="script.js"></script>
-
+    <script>
+        /* ============================================================
+           CUSTOM CURSOR
+        ============================================================ */
+        var dot = document.getElementById('cdot'), ring = document.getElementById('cring');
         var mx = window.innerWidth / 2, my = window.innerHeight / 2, rx = mx, ry = my;
         if (window.innerWidth > 768) {
             document.addEventListener('mousemove', function (e) { mx = e.clientX; my = e.clientY; dot.style.left = mx + 'px'; dot.style.top = my + 'px' });
