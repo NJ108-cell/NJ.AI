@@ -4,7 +4,9 @@
 
 ### A modern, interactive developer portfolio crafted to showcase projects, skills, and professional identity with polished 2D animations, smooth transitions, and a recruiter-friendly user experience.
 
-[![Live Website](https://img.shields.io/badge/Live-Demo-0f172a?style=for-the-badge&logo=vercel&logoColor=white)](https://NamanJain.co-AIEngineer@da.gd/ONsby)
+**[Portfolio Link](https://nj-ai-psi.vercel.app/)**
+
+[![Live Website](https://img.shields.io/badge/Live-Demo-0f172a?style=for-the-badge&logo=vercel&logoColor=white)](https://nj-ai-psi.vercel.app/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-NJ108--cell-181717?style=for-the-badge&logo=github)](https://github.com/NJ108-cell)
 [![License](https://img.shields.io/badge/License-MIT-16a34a?style=for-the-badge)](#-license)
 [![Responsive](https://img.shields.io/badge/Responsive-Yes-2563eb?style=for-the-badge)](#-features)
@@ -106,16 +108,6 @@ flowchart TD
 
 ---
 
-## 📈 Portfolio Impact Graph
-
-<div align="center">
-
-![Portfolio Performance](https://quickchart.io/chart?c={type:'bar',data:{labels:['UI%2FUX','Responsiveness','Animation','Accessibility','Branding'],datasets:[{label:'Score',data:[92,96,90,85,94],backgroundColor:['%230ea5e9','%2310b981','%238b5cf6','%23f59e0b','%23ef4444']}]} ,options:{plugins:{legend:{display:false},title:{display:true,text:'Portfolio Quality Highlights'}} ,scales:{y:{beginAtZero:true,max:100}}}})
-
-</div>
-
----
-
 ## 📊 Metrics
 
 | Metric | Value | Impact |
@@ -190,20 +182,6 @@ portfolio/
 │── package.json
 │── README.md
 ```
-
----
-
-## 🖼️ Output Preview
-
-<div align="center">
-
-![Portfolio Preview](https://via.placeholder.com/1200x650/0f172a/ffffff?text=2D+Animated+Portfolio+Website+Preview)
-
-</div>
-
-<p align="center">
-  A clean, animated portfolio interface with modern sections, smooth transitions, and professional branding.
-</p>
 
 ---
 
